@@ -1,0 +1,60 @@
+{
+    "backend": "quantify_scheduler.backends.qblox_backend.hardware_compile",
+    "ic_cmm": {
+        "ref": "internal",
+        "instrument_type": "Cluster",
+        "qcm0": {
+            "real_output_0": {
+                "dc_mixer_offset_I": -0.00552998352050781,
+                "dc_mixer_offset_Q": -0.00556259155273438,
+                "lo_freq": null,
+                "line_gain_db": 0,
+                "seq0": {
+                    "clock": "q0.01",
+                    "interm_freq": -100e6,
+                    "port": "q0:mw",
+                    "mixer_amp_ratio": 0.9870930314064026,
+                    "mixer_phase_error": 4.475684642791748
+                }
+            },
+            "real_output_1": {
+                "line_gain_db": 0,
+                "seq1": {
+                    "clock": "q1.01",
+                    "interm_freq": -100e6,
+                    "port": "q1:mw"
+                }
+            },
+            "name": "qcm0",
+            "instrument_type": "QCM_RF"
+        },
+        "qrm0": {
+            "real_output_0": {
+                "line_gain_db": 0,
+                "dc_mixer_offset_I": -0.00552998352050781,
+                "dc_mixer_offset_Q": -0.00556259155273438,
+                "seq0": {
+                    "clock": "q0.ro",
+                    "interm_freq": -100e6,
+                    "port": "q0:res",
+                    "mixer_amp_ratio": 0.8837907910346985,
+                    "mixer_phase_error": 10.287955284118652
+                }
+            },
+            "name": "qrm0",
+            "instrument_type": "QRM_RF"
+        },
+        "qrm1": {
+            "real_output_0": {
+                "line_gain_db": 0,
+                "seq0": {
+                    "clock": "q1.ro",
+                    "interm_freq": -100e6,
+                    "port": "q1:res"
+                }
+            },
+            "name": "qrm1",
+            "instrument_type": "QRM_RF"
+        }
+    }
+}

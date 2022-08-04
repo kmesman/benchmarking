@@ -1,0 +1,95 @@
+_find_cluster 0.13087081909179688
+_module_config_cluster 8.344650268554688e-06
+_get_num_qubits 4.0531158447265625e-06
+QCM
+QCM_RF
+{'interm_freq': {'2': -100000000.0, '3': -150000000.0}, 'mw_freq': {'0': 100000000.0, '1': 110000000.0, '2': 5600000000.0, '3': 5650000000.0}, 'lo_freq': 5000000000.0}
+[2, 3]
+QRM
+QRM_RF
+_set_hardware_config 0.00023221969604492188
+_set_device_config 0.0007929801940917969
+_configure_ic 0.0002894401550292969
+ClusterBackend 0.13251948356628418
+configuration 1.2874603271484375e-05
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.002162456512451172s
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+start : 0.07596015930175781s 
+waiting : 0.08048534393310547s
+run 0.1993422508239746
+[[{'1100': 1}, {'total job time': 0.15878939628601074, 'schedule': 0.00019982000000000002, 'running': 0.15644550323486328, 'compile': 0.005747795104980469}]]
+setup time : 0.132739247
+QPack time : 2.7289000000000002e-05
+
+runfile('/home/koen/Qpackage/src/QPack_benchmark/unit_tests.py', wdir='/home/koen/Qpackage/src/QPack_benchmark')
+Reloaded modules: generate_graph, testquantify, cost_library, optimizer, QPack, MockLo, cast_to_QASM, simulator_template, sim_device, runner, generate_qblox_config, backend_classes
+_find_cluster 0.12711215019226074
+_module_config_cluster 8.106231689453125e-06
+_get_num_qubits 3.409385681152344e-05
+QCM
+QCM_RF
+{'interm_freq': {'2': -100000000.0, '3': -150000000.0}, 'mw_freq': {'0': 100000000.0, '1': 110000000.0, '2': 5600000000.0, '3': 5650000000.0}, 'lo_freq': 5000000000.0}
+[2, 3]
+QRM
+QRM_RF
+_set_hardware_config 0.00023484230041503906
+_set_device_config 0.0006110668182373047
+_configure_ic 0.000274658203125
+ClusterBackend 0.12848281860351562
+configuration 1.2874603271484375e-05
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.0018870830535888672s
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+start : 0.07880043983459473s 
+waiting : 0.08656883239746094s
+run 0.20595526695251465
+[[{'0010': 1}, {'total job time': 0.16740059852600098, 'schedule': 0.00019982000000000002, 'running': 0.16536927223205566, 'compile': 0.00553584098815918}]]
+setup time : 0.12868781
+QPack time : 4.1218000000000004e-05
+
+runfile('/home/koen/Qpackage/src/QPack_benchmark/unit_tests.py', wdir='/home/koen/Qpackage/src/QPack_benchmark')
+Reloaded modules: generate_graph, testquantify, cost_library, optimizer, QPack, MockLo, cast_to_QASM, simulator_template, sim_device, runner, generate_qblox_config, backend_classes
+create cluster instance 0.1273822784423828
+_find_cluster 0.12816762924194336
+_module_config_cluster 1.52587890625e-05
+_get_num_qubits 5.245208740234375e-06
+QCM
+QCM_RF
+{'interm_freq': {'2': -100000000.0, '3': -150000000.0}, 'mw_freq': {'0': 100000000.0, '1': 110000000.0, '2': 5600000000.0, '3': 5650000000.0}, 'lo_freq': 5000000000.0}
+[2, 3]
+QRM
+QRM_RF
+_set_hardware_config 0.0008959770202636719
+_set_device_config 0.0014500617980957031
+_configure_ic 0.0003044605255126953
+ClusterBackend 0.13100290298461914
+configuration 1.33514404296875e-05
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.0016913414001464844s
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+start : 0.07781314849853516s 
+waiting : 0.08498215675354004s
+run 0.20824623107910156
+[[{'0001': 1}, {'total job time': 0.16457390785217285, 'schedule': 0.00019982000000000002, 'running': 0.1627953052520752, 'compile': 0.005718231201171875}]]
+setup time : 0.131241342
+QPack time : 2.8163e-05
+

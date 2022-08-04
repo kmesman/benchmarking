@@ -1,0 +1,45 @@
+[ic_qrm0|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_qrm0|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+_find_pulsars 2.86102294921875e-06
+_pulsar_config 0.0002689361572265625
+_get_num_qubits 2.86102294921875e-06
+_set_hardware_config 0.0001430511474609375
+_set_device_config 0.00033593177795410156
+_configure_ic 0.00026345252990722656
+PulsarBackend 0.001188516616821289
+configuration 1.1444091796875e-05
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 1.6927719116210938e-05s
+start : 0.015121936798095703s 
+waiting : 0.013754129409790039s
+run 0.0588228702545166
+[[{'01': 1}, {'total job time': 0.028920888900756836, 'schedule': 0.00019982000000000002, 'running': 0.028876066207885742, 'compile': 0.0031592845916748047}]]
+setup time : 0.0011935234069824219
+QPack time : 2.4318695068359375e-05
+
+runfile('/home/koen/Qpackage/src/QPack_benchmark/unit_tests.py', wdir='/home/koen/Qpackage/src/QPack_benchmark')
+Reloaded modules: generate_graph, testquantify, cost_library, optimizer, QPack, MockLo, cast_to_QASM, simulator_template, sim_device, runner, generate_qblox_config, backend_classes
+_find_pulsars 9.298324584960938e-06
+_pulsar_config 0.0002903938293457031
+_get_num_qubits 3.0994415283203125e-06
+_set_hardware_config 0.0001983642578125
+_set_device_config 0.00045943260192871094
+_configure_ic 0.00026535987854003906
+PulsarBackend 0.0014030933380126953
+configuration 1.239776611328125e-05
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 1.6450881958007812e-05s
+[ic_qrm0|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_qrm0|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+start : 0.016051530838012695s 
+waiting : 0.014945507049560547s
+run 0.06200361251831055
+[[{'10': 1}, {'total job time': 0.03127908706665039, 'schedule': 0.00019982000000000002, 'running': 0.030997037887573242, 'compile': 0.003246784210205078}]]
+setup time : 0.0014081001281738281
+QPack time : 2.5033950805664062e-05

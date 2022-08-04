@@ -1,0 +1,78 @@
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+create cluster instance 0.19533300399780273
+_find_cluster 0.19728350639343262
+_verify_config 4.291534423828125e-06
+_get_num_qubits 2.384185791015625e-06
+QCM
+QRM
+_set_hardware_config 0.00022220611572265625
+_set_device_config 0.0005388259887695312
+_configure_ic 0.0003459453582763672
+ClusterBackend 0.19855427742004395
+configuration 1.3113021850585938e-05
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.0035157203674316406s
+start : 0.060045480728149414s 
+waiting : 0.05972647666931152s
+run 0.1582489013671875
+[[{'01': 1}, {'total job time': 0.12347698211669922, 'schedule': 0.00019982000000000002, 'running': 0.11977195739746094, 'compile': 0.004217386245727539}]]
+setup time : 0.19876980600000002
+QPack time : 2.6003e-05
+
+runfile('/home/koen/Qpackage/src/QPack_benchmark/unit_tests.py', wdir='/home/koen/Qpackage/src/QPack_benchmark')
+Reloaded modules: generate_graph, testquantify, cost_library, optimizer, QPack, MockLo, cast_to_QASM, simulator_template, sim_device, runner, generate_qblox_config, backend_classes
+create cluster instance 0.13654661178588867
+_find_cluster 0.1379249095916748
+_verify_config 2.765655517578125e-05
+_get_num_qubits 4.291534423828125e-06
+QCM
+QRM
+_set_hardware_config 0.0005767345428466797
+_set_device_config 0.0009012222290039062
+_configure_ic 0.0005915164947509766
+ClusterBackend 0.14034748077392578
+configuration 1.6450881958007812e-05
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.003171682357788086s
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+start : 0.07237815856933594s 
+waiting : 0.07808947563171387s
+run 0.3065602779388428
+[[{'00': 1}, {'total job time': 0.15405750274658203, 'schedule': 0.00019982000000000002, 'running': 0.1504676342010498, 'compile': 0.00445556640625}]]
+setup time : 0.140693158
+QPack time : 3.4557e-05
+
+runfile('/home/koen/Qpackage/src/QPack_benchmark/unit_tests.py', wdir='/home/koen/Qpackage/src/QPack_benchmark')
+Reloaded modules: generate_graph, testquantify, cost_library, optimizer, QPack, MockLo, cast_to_QASM, simulator_template, sim_device, runner, generate_qblox_config, backend_classes
+create cluster instance 0.11415410041809082
+_find_cluster 0.1149129867553711
+_verify_config 6.9141387939453125e-06
+_get_num_qubits 3.5762786865234375e-06
+QCM
+QRM
+_set_hardware_config 0.0004687309265136719
+_set_device_config 0.00052642822265625
+_configure_ic 0.0004076957702636719
+ClusterBackend 0.11649513244628906
+configuration 1.6450881958007812e-05
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.004105091094970703s
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module8|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+start : 0.07232117652893066s 
+waiting : 0.07366943359375s
+run 0.20125961303710938
+[[{'00': 1}, {'total job time': 0.15071463584899902, 'schedule': 0.00019982000000000002, 'running': 0.14599061012268066, 'compile': 0.004538774490356445}]]
+setup time : 0.116727907
+QPack time : 3.4326e-05

@@ -1,0 +1,157 @@
+{
+    "backend": "quantify_scheduler.backends.qblox_backend.hardware_compile",
+    "cluster0": {
+        "ref": "internal",
+        "instrument_type": "Cluster",
+        "cluster0_module8": {
+            "instrument_type": "QCM",
+            "ref": "internal",
+            "complex_output_0": {
+                "line_gain_db": 0,
+                "dc_mixer_offset_I": 0.1234,
+                "dc_mixer_offset_Q": -1.337,
+                "seq0": {
+                    "mixer_amp_ratio": 0.9998,
+                    "mixer_phase_error_deg": -4.1,
+                    "lo_name": "lo0",
+                    "port": "q0:mw",
+                    "clock": "q0.01",
+                    "interm_freq": null
+                }
+            },
+            "complex_output_1": {
+                "line_gain_db": 0,
+                "seq1": {
+                    "lo_name": "lo0",
+                    "port": "q1:mw",
+                    "clock": "q1.01",
+                    "interm_freq": null
+                }
+            },
+            "real_output_0": {
+                "line_gain_db": 0,
+                "dc_mixer_offset_I": 0.1234,
+                "dc_mixer_offset_Q": -1.337,
+                "seq2": {
+                    "lo_name": "lo0",
+                    "mixer_amp_ratio": 0.9998,
+                    "mixer_phase_error_deg": -4.1,
+                    "port": "q0:fl",
+                    "clock": "cl0.baseband",
+                    "interm_freq": null
+                }
+            },
+            "real_output_1": {
+                "line_gain_db": 0,
+                "dc_mixer_offset_I": 0.1234,
+                "dc_mixer_offset_Q": -1.337,
+                "seq3": {
+                    "mixer_amp_ratio": 0.9998,
+                    "mixer_phase_error_deg": -4.1,
+                    "port": "q1:fl",
+                    "clock": "cl0.baseband",
+                    "interm_freq": null,
+                    "lo_name": "lo0"
+                }
+            }
+        },
+        "cluster0_module3": {
+            "instrument_type": "QCM_RF",
+            "ref": "internal",
+            "complex_output_0": {
+                "line_gain_db": 0,
+                "dc_mixer_offset_I": 0.01234,
+                "dc_mixer_offset_Q": -0.0337,
+                "seq0": {
+                    "lo_freq": 5000000000.0,
+                    "mixer_amp_ratio": 0.9998,
+                    "mixer_phase_error_deg": -4.1,
+                    "port": "q2:mw",
+                    "clock": "q2.01",
+                    "interm_freq": -300000000.0
+                },
+                "seq1": {
+                    "lo_freq": 5000000000.0,
+                    "lo_name": "lo0",
+                    "port": "q3:mw",
+                    "clock": "q3.01",
+                    "interm_freq": -200000000.0
+                }
+            }
+        },
+        "cluster0_module16": {
+            "instrument_type": "QRM_RF",
+            "complex_output_0": {
+                "dc_mixer_offset_I": -0.00552998352050781,
+                "dc_mixer_offset_Q": -0.00556259155273438,
+                "line_gain_db": 0,
+                "seq0": {
+                    "clock": "q4.01",
+                    "interm_freq": -100000000.0,
+                    "port": "q4:mw",
+                    "mixer_amp_ratio": 0.9870930314064026,
+                    "mixer_phase_error": 4.475684642791748
+                }
+            }
+        },
+        "cluster0_module5": {
+            "instrument_type": "QRM",
+            "ref": "external",
+            "complex_output_0": {
+                "lo_name": "lo0",
+                "line_gain_db": 0,
+                "dc_mixer_offset_I": -0.054,
+                "dc_mixer_offset_Q": -0.034,
+                "seq0": {
+                    "mixer_amp_ratio": 0.9997,
+                    "mixer_phase_error_deg": -4.0,
+                    "port": "q0:res",
+                    "clock": "q0.ro",
+                    "interm_freq": null
+                },
+                "seq1": {
+                    "mixer_amp_ratio": 0.9997,
+                    "mixer_phase_error_deg": -4.0,
+                    "port": "q1:res",
+                    "clock": "q1.ro",
+                    "interm_freq": null
+                }
+            }
+        },
+        "cluster0_module17": {
+            "instrument_type": "QRM_RF",
+            "complex_output_0": {
+                "dc_mixer_offset_I": -0.00552998352050781,
+                "dc_mixer_offset_Q": -0.00556259155273438,
+                "line_gain_db": 0,
+                "lo_freq": null,
+                "seq0": {
+                    "clock": "q2.ro",
+                    "interm_freq": 200000000.0,
+                    "port": "q2:res",
+                    "mixer_amp_ratio": 0.9870930314064026,
+                    "mixer_phase_error": 4.475684642791748
+                },
+                "seq1": {
+                    "clock": "q3.ro",
+                    "interm_freq": null,
+                    "port": "q3:res",
+                    "mixer_amp_ratio": 0.9870930314064026,
+                    "mixer_phase_error": 4.475684642791748
+                },
+                "seq2": {
+                    "clock": "q4.ro",
+                    "interm_freq": null,
+                    "port": "q4:res",
+                    "mixer_amp_ratio": 0.9870930314064026,
+                    "mixer_phase_error": 4.475684642791748
+                }
+            }
+        }
+    },
+    "lo0": {
+        "instrument_type": "LocalOscillator",
+        "frequency": 20000000.0,
+        "power": 17
+    }
+}

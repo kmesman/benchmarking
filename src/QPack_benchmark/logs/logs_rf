@@ -1,0 +1,71 @@
+
+QCM_RF
+{'interm_freq': {'0': 0.0, '1': -50000000.0}, 'mw_freq': {'0': 5500000000.0, '1': 5550000000.0}, 'lo_freq': 5000000000.0}
+[0, 1]
+QRM_RF
+2
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+prepare_time : 0.0016376972198486328s
+start : 0.04094862937927246s 
+waiting : 0.040383100509643555s
+[[{'10': 1}, {'total job time': 0.08308601379394531, 'schedule': 0.00019982000000000002, 'running': 0.08133172988891602, 'compile': 0.0034308433532714844}]]
+
+runfile('/home/koen/Qpackage/src/QPack_benchmark/unit_tests.py', wdir='/home/koen/Qpackage/src/QPack_benchmark')
+Reloaded modules: cast_to_QASM, simulator_template, sim_device, runner, generate_qblox_config, backend, generate_graph, testquantify, cost_library, optimizer, QPack, MockLo
+QCM_RF
+{'interm_freq': {'0': 0.0, '1': -50000000.0}, 'mw_freq': {'0': 5500000000.0, '1': 5550000000.0}, 'lo_freq': 5000000000.0}
+[0, 1]
+QRM_RF
+2
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.0022144317626953125s
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+start : 0.04253649711608887s 
+waiting : 0.043970346450805664s
+[[{'01': 1}, {'total job time': 0.08881878852844238, 'schedule': 0.00019982000000000002, 'running': 0.08650684356689453, 'compile': 0.0034728050231933594}]]
+
+runfile('/home/koen/Qpackage/src/QPack_benchmark/unit_tests.py', wdir='/home/koen/Qpackage/src/QPack_benchmark')
+Reloaded modules: cast_to_QASM, simulator_template, sim_device, runner, generate_qblox_config, backend, generate_graph, testquantify, cost_library, optimizer, QPack, MockLo
+QCM_RF
+{'interm_freq': {'0': 0.0, '1': -50000000.0}, 'mw_freq': {'0': 5500000000.0, '1': 5550000000.0}, 'lo_freq': 5000000000.0}
+[0, 1]
+QRM_RF
+2
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.0017435550689697266s
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+start : 0.0436406135559082s 
+waiting : 0.04401993751525879s
+[[{'11': 1}, {'total job time': 0.08961725234985352, 'schedule': 0.00019982000000000002, 'running': 0.08766055107116699, 'compile': 0.003734588623046875}]]
+
+runfile('/home/koen/Qpackage/src/QPack_benchmark/unit_tests.py', wdir='/home/koen/Qpackage/src/QPack_benchmark')
+Reloaded modules: cast_to_QASM, simulator_template, sim_device, runner, generate_qblox_config, backend, generate_graph, testquantify, cost_library, optimizer, QPack, MockLo
+QCM_RF
+{'interm_freq': {'0': 0.0, '1': -50000000.0}, 'mw_freq': {'0': 5500000000.0, '1': 5550000000.0}, 'lo_freq': 5000000000.0}
+[0, 1]
+QRM_RF
+2
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.0020384788513183594s
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module16|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+start : 0.03529810905456543s 
+waiting : 0.037717580795288086s
+[[{'10': 1}, {'total job time': 0.07513165473937988, 'schedule': 0.00019982000000000002, 'running': 0.07301568984985352, 'compile': 0.0034732818603515625}]]
+

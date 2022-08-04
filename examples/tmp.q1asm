@@ -1,0 +1,39 @@
+          
+          wait_sync     4                                                
+          reset_ph                                                       
+          upd_param     4                                                
+          set_mrk       15         # set markers to 15                   
+          move          10000,R0   # iterator for loop with label start  
+  start:                                                                 
+          wait          65532      # auto generated wait                 
+          wait          65532      # auto generated wait                 
+          wait          65532      # auto generated wait                 
+          wait          3884                                             
+          set_awg_gain  0,6553     # setting gain for CZ (q2, q3)        
+          play          0,1,4      # play CZ (q2, q3) (40 ns)            
+          wait          96                                               
+          set_awg_gain  0,6553     # setting gain for CZ (q2, q3)        
+          play          0,1,4      # play CZ (q2, q3) (40 ns)            
+          wait          36                                               
+          set_awg_gain  0,6553     # setting gain for CZ (q3, q4)        
+          play          0,1,4      # play CZ (q3, q4) (40 ns)            
+          wait          96                                               
+          set_awg_gain  0,6553     # setting gain for CZ (q3, q4)        
+          play          0,1,4      # play CZ (q3, q4) (40 ns)            
+          wait          316                                              
+          set_awg_gain  0,6553     # setting gain for CZ (q1, q3)        
+          play          0,1,4      # play CZ (q1, q3) (40 ns)            
+          wait          96                                               
+          set_awg_gain  0,6553     # setting gain for CZ (q1, q3)        
+          play          0,1,4      # play CZ (q1, q3) (40 ns)            
+          wait          176                                              
+          set_awg_gain  0,6553     # setting gain for CZ (q0, q3)        
+          play          0,1,4      # play CZ (q0, q3) (40 ns)            
+          wait          96                                               
+          set_awg_gain  0,6553     # setting gain for CZ (q0, q3)        
+          play          0,1,4      # play CZ (q0, q3) (40 ns)            
+          wait          2376                                             
+          loop          R0,@start                                        
+          set_mrk       0          # set markers to 0                    
+          upd_param     4                                                
+          stop                                                           

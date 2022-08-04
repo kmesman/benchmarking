@@ -1,0 +1,45 @@
+[ic_cluster0_module3|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module3|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+QRM
+QCM
+2
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.002149820327758789s
+start : 0.04026460647583008s 
+waiting : 0.046701669692993164s
+[[{'11': 1}, {'total job time': 0.08924221992492676, 'schedule': 0.00019982000000000002, 'running': 0.08696627616882324, 'compile': 0.0037734508514404297}]]
+
+runfile('/home/koen/Qpackage/src/QPack_benchmark/unit_tests.py', wdir='/home/koen/Qpackage/src/QPack_benchmark')
+Reloaded modules: cast_to_QASM, simulator_template, sim_device, runner, generate_qblox_config, generate_graph, testquantify, cost_library, optimizer, MockLo, backend, QPack
+QRM
+QCM
+2
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+[ic_cluster0_module3|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module3|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+prepare_time : 0.0021610260009765625s
+start : 0.03989815711975098s 
+waiting : 0.042478084564208984s
+[[{'01': 1}, {'total job time': 0.08466935157775879, 'schedule': 0.00019982000000000002, 'running': 0.08237624168395996, 'compile': 0.0034835338592529297}]]
+
+runfile('/home/koen/Qpackage/src/QPack_benchmark/unit_tests.py', wdir='/home/koen/Qpackage/src/QPack_benchmark')
+Reloaded modules: cast_to_QASM, simulator_template, sim_device, runner, generate_qblox_config, backend, generate_graph, testquantify, cost_library, optimizer, QPack, MockLo
+QRM
+QCM
+2
+Starting test run
+schedule time : 0.00019982000000000002s
+shots : 1
+total schedule time : 0.00019982000000000002s
+prepare_time : 0.0016391277313232422s
+[ic_cluster0_module3|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_0 - Scope acquisition data for path 0 was out-of-range.
+[ic_cluster0_module3|seq0] ACQ_SCOPE_OUT_OF_RANGE_PATH_1 - Scope acquisition data for path 1 was out-of-range.
+start : 0.03258776664733887s 
+waiting : 0.03855013847351074s
+[[{'11': 1}, {'total job time': 0.07287979125976562, 'schedule': 0.00019982000000000002, 'running': 0.07113790512084961, 'compile': 0.00393223762512207}]]

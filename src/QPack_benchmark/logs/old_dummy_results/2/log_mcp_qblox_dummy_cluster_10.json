@@ -1,0 +1,28 @@
+{
+    "qfunc": "mcp",
+    "backend_tag": "qblox_dummy_cluster",
+    "data": [
+        {
+            "shots": "mcp",
+            "opt_time": 11.017932891845703,
+            "func_calls": 5,
+            "acc": -0.0,
+            "time_res": {
+                "quantum_runtime": [
+                    2.8208885192871094,
+                    2.5179221630096436,
+                    2.368699312210083,
+                    2.661668539047241,
+                    2.4063403606414795
+                ],
+                "time_per_step": {
+                    "total job time": 1.150446891784668,
+                    "schedule": 2.03532,
+                    "running": 0.020740747451782227,
+                    "compile": 0.642545223236084
+                },
+                "iterations": 5
+            }
+        }
+    ]
+}

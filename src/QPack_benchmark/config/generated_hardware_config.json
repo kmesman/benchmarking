@@ -1,0 +1,332 @@
+{
+    "backend": "quantify_scheduler.backends.qblox_backend.hardware_compile",
+    "cluster0": {
+        "ref": "internal",
+        "instrument_type": "Cluster",
+        "cluster0_module2": {
+            "instrument_type": "QCM",
+            "ref": "internal",
+            "complex_output_0": {
+                "portclock_configs": [
+                    {
+                        "port": "q0:mw",
+                        "clock": "q0.01",
+                        "interm_freq": null
+                    },
+                    {
+                        "port": "q2:mw",
+                        "clock": "q2.01",
+                        "interm_freq": null
+                    }
+                ]
+            },
+            "complex_output_1": {
+                "portclock_configs": [
+                    {
+                        "port": "q1:mw",
+                        "clock": "q1.01",
+                        "interm_freq": null
+                    },
+                    {
+                        "port": "q3:mw",
+                        "clock": "q3.01",
+                        "interm_freq": null
+                    }
+                ]
+            }
+        },
+        "cluster0_module3": {
+            "instrument_type": "QCM",
+            "ref": "internal",
+            "complex_output_0": {
+                "portclock_configs": [
+                    {
+                        "port": "q4:mw",
+                        "clock": "q4.01",
+                        "interm_freq": null
+                    },
+                    {
+                        "port": "q6:mw",
+                        "clock": "q6.01",
+                        "interm_freq": null
+                    }
+                ]
+            },
+            "complex_output_1": {
+                "portclock_configs": [
+                    {
+                        "port": "q5:mw",
+                        "clock": "q5.01",
+                        "interm_freq": null
+                    },
+                    {
+                        "port": "q7:mw",
+                        "clock": "q7.01",
+                        "interm_freq": null
+                    }
+                ]
+            }
+        },
+        "cluster0_module4": {
+            "instrument_type": "QCM",
+            "ref": "internal",
+            "complex_output_0": {
+                "portclock_configs": [
+                    {
+                        "port": "q8:mw",
+                        "clock": "q8.01",
+                        "interm_freq": null
+                    },
+                    {
+                        "port": "q10:mw",
+                        "clock": "q10.01",
+                        "interm_freq": null
+                    }
+                ]
+            },
+            "complex_output_1": {
+                "portclock_configs": [
+                    {
+                        "port": "q9:mw",
+                        "clock": "q9.01",
+                        "interm_freq": null
+                    },
+                    {
+                        "port": "q11:mw",
+                        "clock": "q11.01",
+                        "interm_freq": null
+                    }
+                ]
+            }
+        },
+        "cluster0_module5": {
+            "instrument_type": "QCM",
+            "ref": "internal",
+            "complex_output_0": {
+                "portclock_configs": [
+                    {
+                        "port": "q12:mw",
+                        "clock": "q12.01",
+                        "interm_freq": null
+                    },
+                    {
+                        "port": "q14:mw",
+                        "clock": "q14.01",
+                        "interm_freq": null
+                    }
+                ]
+            },
+            "complex_output_1": {
+                "portclock_configs": [
+                    {
+                        "port": "q13:mw",
+                        "clock": "q13.01",
+                        "interm_freq": null
+                    },
+                    {
+                        "port": "q15:mw",
+                        "clock": "q15.01",
+                        "interm_freq": null
+                    }
+                ]
+            }
+        },
+        "cluster0_module6": {
+            "instrument_type": "QRM",
+            "ref": "internal",
+            "complex_output_0": {
+                "lo_name": "lo0",
+                "portclock_configs": [
+                    {
+                        "port": "q0:res",
+                        "clock": "q0.ro"
+                    },
+                    {
+                        "port": "q2:res",
+                        "clock": "q2.ro"
+                    },
+                    {
+                        "port": "q4:res",
+                        "clock": "q4.ro"
+                    }
+                ]
+            },
+            "real_output_0": {
+                "lo_name": "lo0",
+                "portclock_configs": [
+                    {
+                        "port": "q1:res",
+                        "clock": "q1.ro"
+                    },
+                    {
+                        "port": "q3:res",
+                        "clock": "q3.ro"
+                    },
+                    {
+                        "port": "q5:res",
+                        "clock": "q5.ro"
+                    }
+                ]
+            }
+        },
+        "cluster0_module7": {
+            "instrument_type": "QRM",
+            "ref": "internal",
+            "complex_output_0": {
+                "lo_name": "lo0",
+                "portclock_configs": [
+                    {
+                        "port": "q6:res",
+                        "clock": "q6.ro"
+                    },
+                    {
+                        "port": "q8:res",
+                        "clock": "q8.ro"
+                    },
+                    {
+                        "port": "q10:res",
+                        "clock": "q10.ro"
+                    }
+                ]
+            },
+            "real_output_0": {
+                "lo_name": "lo0",
+                "portclock_configs": [
+                    {
+                        "port": "q7:res",
+                        "clock": "q7.ro"
+                    },
+                    {
+                        "port": "q9:res",
+                        "clock": "q9.ro"
+                    },
+                    {
+                        "port": "q11:res",
+                        "clock": "q11.ro"
+                    }
+                ]
+            }
+        },
+        "cluster0_module8": {
+            "instrument_type": "QRM",
+            "ref": "internal",
+            "complex_output_0": {
+                "lo_name": "lo0",
+                "portclock_configs": [
+                    {
+                        "port": "q12:res",
+                        "clock": "q12.ro"
+                    },
+                    {
+                        "port": "q14:res",
+                        "clock": "q14.ro"
+                    }
+                ]
+            },
+            "real_output_0": {
+                "lo_name": "lo0",
+                "portclock_configs": [
+                    {
+                        "port": "q13:res",
+                        "clock": "q13.ro"
+                    },
+                    {
+                        "port": "q15:res",
+                        "clock": "q15.ro"
+                    }
+                ]
+            }
+        },
+        "cluster0_module11": {
+            "instrument_type": "QCM_RF",
+            "complex_output_0": {
+                "portclock_configs": [
+                    {
+                        "port": "q16:mw",
+                        "clock": "q16.01",
+                        "interm_freq": -50000000.0
+                    },
+                    {
+                        "port": "q17:mw",
+                        "clock": "q17.01",
+                        "interm_freq": -50000000.0
+                    }
+                ]
+            }
+        },
+        "cluster0_module12": {
+            "instrument_type": "QCM_RF",
+            "complex_output_0": {
+                "portclock_configs": [
+                    {
+                        "port": "q18:mw",
+                        "clock": "q18.01",
+                        "interm_freq": -50000000.0
+                    },
+                    {
+                        "port": "q19:mw",
+                        "clock": "q19.01",
+                        "interm_freq": -50000000.0
+                    }
+                ]
+            }
+        },
+        "cluster0_module13": {
+            "instrument_type": "QRM_RF",
+            "complex_output_0": {
+                "lo_freq": 3000000000.0,
+                "portclock_configs": [
+                    {
+                        "port": "q16:res",
+                        "clock": "q16.ro"
+                    },
+                    {
+                        "port": "q17:res",
+                        "clock": "q17.ro"
+                    }
+                ]
+            }
+        },
+        "cluster0_module14": {
+            "instrument_type": "QRM_RF",
+            "complex_output_0": {
+                "lo_freq": 3000000000.0,
+                "portclock_configs": [
+                    {
+                        "port": "q18:res",
+                        "clock": "q18.ro"
+                    },
+                    {
+                        "port": "q19:res",
+                        "clock": "q19.ro"
+                    },
+                    {
+                        "port": "q20:res",
+                        "clock": "q20.ro"
+                    },
+                    {
+                        "port": "q21:res",
+                        "clock": "q21.ro"
+                    }
+                ]
+            }
+        },
+        "cluster0_module15": {
+            "instrument_type": "QRM_RF",
+            "complex_output_0": {
+                "portclock_configs": [
+                    {
+                        "port": "q20:mw",
+                        "clock": "q20.01",
+                        "interm_freq": -50000000.0
+                    },
+                    {
+                        "port": "q21:mw",
+                        "clock": "q21.01",
+                        "interm_freq": -50000000.0
+                    }
+                ]
+            }
+        }
+    }
+}
